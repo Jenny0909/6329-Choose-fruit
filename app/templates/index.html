@@ -10,45 +10,45 @@ function fruitorder()
   
 if(document.getElementById("one1").checked == true)
 {
-  Mycar = " one "; 
+  Mycar = "1"; 
 }
 if(document.getElementById("one2").checked == true)
 {
-  Mywalk = "one";
+  Mywalk = "1";
 }
 if(document.getElementById("one3").checked == true)
 {
-  Mybus = "one";
+  Mybus = "1";
 }
 if(document.getElementById("two1").checked == true)
 {
-  Mycar = "two";
+  Mycar = "2";
 }
 if(document.getElementById("two2").checked == true)
 {
-  Mywalk = "two";
+  Mywalk = "2";
 }
 if(document.getElementById("two3").checked == true)
 {
-  Mybus = "two";
+  Mybus = "2";
 }
 if(document.getElementById("three1").checked == true)
 {
-  Mycar = "three";
+  Mycar = "3";
 }
 if(document.getElementById("three2").checked == true)
 {
-  Mywalk = "three";
+  Mywalk = "3";
 }
 if(document.getElementById("three3").checked == true)
 {
-  Mybus = "three";
+  Mybus = "3";
 }
 
 document.getElementById("transport").innerHTML = Mycar;
 document.getElementById("transport1").innerHTML = Mywalk;
 document.getElementById("transport2").innerHTML = Mybus;
-
+document.getElementById("transport3").innerHTML = Mycar*1+Mywalk*2+Mybus*3;
 return false;
 
 }
@@ -103,7 +103,7 @@ return false;
 <td width="33%">Pineapple Quatity: </td><td><div id="transport2"></div></td>
 </tr>
 <tr>
-  <td width="33%">Total Price </td><td>$</td>
+  <td width="33%">Total Price </td><td><div id="transport3"></div></td>
   </tr>
 </table>    
 </body>
