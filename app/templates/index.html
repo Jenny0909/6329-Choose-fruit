@@ -2,56 +2,58 @@
 
 <html>
 <head>
-<title>Add Image</title>
+<title>Choose Fruits</title>
 <h1 align="center">Choose your fruit</h1>
 <script>
 function fruitorder()
 {
   
-if(document.getElementById("1-5").checked == true)
+if(document.getElementById("one1").checked == true)
 {
-  Mycar = "Not many come by car"; 
+  Mycar = " one "; 
 }
-if(document.getElementById("1-5w").checked == true)
+if(document.getElementById("one2").checked == true)
 {
-  Mywalk = "Not many walk to school";
+  Mywalk = "one";
 }
-if(document.getElementById("1-5b").checked == true)
+if(document.getElementById("one3").checked == true)
 {
-  Mybus = "Not many come with school bus";
+  Mybus = "one";
 }
-if(document.getElementById("6-10").checked == true)
+if(document.getElementById("two1").checked == true)
 {
-  Mycar = "Half of the class come by car";
+  Mycar = "two";
 }
-if(document.getElementById("6-10w").checked == true)
+if(document.getElementById("two2").checked == true)
 {
-  Mywalk = "Half of the class walks to school";
+  Mywalk = "two";
 }
-if(document.getElementById("6-10b").checked == true)
+if(document.getElementById("two3").checked == true)
 {
-  Mybus = "Half of the class comes by bus";
+  Mybus = "two";
 }
-if(document.getElementById("11-20").checked == true)
+if(document.getElementById("three1").checked == true)
 {
-  Mycar = "Majority of them come by car";
+  Mycar = "three";
 }
-if(document.getElementById("11-20w").checked == true)
+if(document.getElementById("three2").checked == true)
 {
-  Mywalk = "Majority of them walk to school";
+  Mywalk = "three";
 }
-if(document.getElementById("11-20b").checked == true)
+if(document.getElementById("three3").checked == true)
 {
-  Mybus = "Majority of them come by bus";
+  Mybus = "three";
 }
 
 document.getElementById("transport").innerHTML = Mycar;
 document.getElementById("transport1").innerHTML = Mywalk;
 document.getElementById("transport2").innerHTML = Mybus;
+
 return false;
 
 }
 </script>
+
 
 </head>
 <body>
@@ -101,7 +103,7 @@ return false;
 <td width="33%">Pineapple Quatity: </td><td><div id="transport2"></div></td>
 </tr>
 <tr>
-  <td width="33%">Total Price </td><td><div id="transport3"></div></td>
+  <td width="33%">Total Price </td><td>$</td>
   </tr>
 </table>    
 </body>
